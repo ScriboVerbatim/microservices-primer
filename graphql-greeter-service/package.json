@@ -4,7 +4,7 @@
   "description": "Greets with \"Hello <string>\", when sent <string>",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "SET PORT=4000 && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abhilash Mishra",

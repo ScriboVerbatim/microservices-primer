@@ -1,0 +1,17 @@
+{
+  "name": "graphql-doubler-service",
+  "version": "1.0.0",
+  "description": "Returns double of the integer passed",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "graphql": "^16.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "SET PORT=4001 && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhilash Mishra",
+  "license": "ISC"
+}
